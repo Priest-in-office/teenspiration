@@ -3,37 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teenspiration — Learn for teams</title>
+  <title>Teenspiration</title>
   <link href="src/output.css" rel="stylesheet">
 </head>
-<body class="antialiased text-gray-900 bg-white">
+<body class="antialiased bg-white">
   <!-- Nav -->
-  <header class="bg-white">
+  <header class="bg-gray-600 sticky top-0 z-50">
     <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center gap-4">
           <a href="#" class="flex items-center gap-3">
-            <div class="w-9 h-9 bg-emerald-500 rounded-full flex items-center justify-center text-white font-extrabold">T</div>
-            <span class="text-lg font-extrabold tracking-tight">Teenspiration</span>
+            <div class="w-9 h-9 bg-gray-700 rounded-full flex items-center justify-center text-white font-extrabold">T</div>
+            <span class="text-xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-emerald-500">Teenspiration</span>
           </a>
         </div>
 
         <!-- Desktop links -->
-        <div class="hidden md:flex md:items-center md:space-x-10">
-          <a href="#product" class="text-gray-600 hover:text-gray-900">Features</a>
-          <a href="#pricing" class="text-gray-600 hover:text-gray-900">About</a>
-          <a href="#how" class="text-gray-600 hover:text-gray-900">Login</a>
-          <a href="#faq" class="text-gray-600 hover:text-gray-900">FAQ</a>
+        <div class="hidden md:flex md:items-center md:space-x-10 md:font-bold">
+          <a href="#product" class="text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">Features</a>
+          <a href="#pricing" class="text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">About</a>
+          <a href="#how" class="text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">Login</a>
+          <a href="#faq" class="text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">FAQ</a>
         </div>
 
         <div class="hidden md:flex items-center gap-4">
-          <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-900">Sign in</a>
-          <a href="#get-started" class="inline-flex items-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold rounded-md">Get started</a>
+          <a href="#" class="text-sm font-medium text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">Sign in</a>
+          <a href="#get-started" class="inline-flex items-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold rounded-md hover:transform hover:scale-[1.05]">Get started</a>
         </div>
 
         <!-- Mobile menu button -->
         <div class="md:hidden">
-          <button id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" class="p-2 rounded-md inline-flex items-center justify-center text-gray-700 hover:bg-gray-100 focus:outline-none">
+          <button id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" class="p-2 rounded-md inline-flex items-center justify-center text-gray-100 bg-gray-500 focus:outline-none">
             <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
@@ -45,26 +45,26 @@
     <!-- Mobile menu -->
     <div id="mobile-menu" class="md:hidden hidden border-t border-gray-100">
       <div class="px-4 pt-4 pb-3 space-y-1">
-        <a href="#product" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Features</a>
-        <a href="#pricing" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">About</a>
-        <a href="#how" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Login</a>
-        <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">FAQ</a>
-        <a href="#get-started" class="block w-full text-center px-3 py-2 rounded-md text-base font-semibold text-white bg-emerald-600 hover:bg-emerald-700">Get started</a>
+        <a href="#product" class="block px-3 py-2 rounded-md text-base font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-emerald-500">Features</a>
+        <a href="#pricing" class="block px-3 py-2 rounded-md text-base font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-emerald-500">About</a>
+        <a href="#how" class="block px-3 py-2 rounded-md text-base font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-emerald-500">Login</a>
+        <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-emerald-500">FAQ</a>
+        <a href="#get-started" class="block w-full text-center px-3 py-2 rounded-md text-base font-semibold text-gray-200 bg-gradient-to-r from-blue-300 to-emerald-500 hover:bg-emerald-700">Get started</a>
       </div>
     </div>
   </header>
 
   <!-- Hero -->
   <main>
-    <section class="bg-gradient-to-b from-emerald-50 to-white">
+    <section class="bg-gray-800">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="max-w-xl">
-          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900">Welcome to Teenspiration! <br> Here your light shines brighter!</h1>
-          <p class="mt-4 text-lg text-gray-600">A global movement of teenagers who believe in shining bright, dreaming big, and living life God's way!</p>
+          <h1 class="text-4xl text-center leading-11 md:leading-20 md:text-7xl md:text-left font-extrabold tracking-tight  text-white">Welcome To Teenspiration!</h1>
+          <p class="mt-4 text-center md:text-left md:pt-5 text-lg text-white">A global movement of teenagers who believe in shining bright, dreaming big, and living life God's way!</p>
 
-          <div class="mt-8 flex flex-wrap gap-4">
-            <a id="get-started" href="#" class="inline-flex items-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-md text-sm font-semibold">Get started</a>
-            <a href="#learn-more" class="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 rounded-md text-sm">Learn more</a>
+          <div class="mt-8 flex flex-wrap gap-4 md:justify-start justify-center">
+            <a id="get-started" href="#" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-300 to-emerald-500 hover:bg-emerald-700 text-white rounded-md text-sm font-semibold hover:transform hover:scale-[1.06]">Get started</a>
+            <a href="#learn-more" class="inline-flex items-center px-6 py-3 border border-gray-300 text-white rounded-md text-sm hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">Learn more</a>
           </div>
 
           <div class="mt-8 flex items-center gap-6 text-sm text-gray-500">
