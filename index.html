@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teenspiration — Learn for teams</title>
+  <link href="src/output.css" rel="stylesheet">
+</head>
+<body class="antialiased text-gray-900 bg-white">
+  <!-- Nav -->
+  <header class="bg-white">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center gap-4">
+          <a href="#" class="flex items-center gap-3">
+            <div class="w-9 h-9 bg-emerald-500 rounded-full flex items-center justify-center text-white font-extrabold">T</div>
+            <span class="text-lg font-extrabold tracking-tight">Teenspiration</span>
+          </a>
+        </div>
+
+        <!-- Desktop links -->
+        <div class="hidden md:flex md:items-center md:space-x-10">
+          <a href="#product" class="text-gray-600 hover:text-gray-900">Features</a>
+          <a href="#pricing" class="text-gray-600 hover:text-gray-900">About</a>
+          <a href="#how" class="text-gray-600 hover:text-gray-900">Login</a>
+          <a href="#faq" class="text-gray-600 hover:text-gray-900">FAQ</a>
+        </div>
+
+        <div class="hidden md:flex items-center gap-4">
+          <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-900">Sign in</a>
+          <a href="#get-started" class="inline-flex items-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold rounded-md">Get started</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" aria-expanded="false" aria-controls="mobile-menu" class="p-2 rounded-md inline-flex items-center justify-center text-gray-700 hover:bg-gray-100 focus:outline-none">
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden border-t border-gray-100">
+      <div class="px-4 pt-4 pb-3 space-y-1">
+        <a href="#product" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Features</a>
+        <a href="#pricing" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">About</a>
+        <a href="#how" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Login</a>
+        <a href="#faq" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">FAQ</a>
+        <a href="#get-started" class="block w-full text-center px-3 py-2 rounded-md text-base font-semibold text-white bg-emerald-600 hover:bg-emerald-700">Get started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="bg-gradient-to-b from-emerald-50 to-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="max-w-xl">
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900">Welcome to Teenspiration! <br> Here your light shines brighter!</h1>
+          <p class="mt-4 text-lg text-gray-600">A global movement of teenagers who believe in shining bright, dreaming big, and living life God's way!</p>
+
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a id="get-started" href="#" class="inline-flex items-center px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-md text-sm font-semibold">Get started</a>
+            <a href="#learn-more" class="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 rounded-md text-sm">Learn more</a>
+          </div>
+
+          <div class="mt-8 flex items-center gap-6 text-sm text-gray-500">
+            <div class="flex items-center gap-2">
+              <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"></path></svg>
+              <span>Proven results — research-backed curriculum</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center lg:justify-end">
+          <!-- Simple illustrative SVG placeholder to avoid using proprietary assets -->
+          <div class="w-full max-w-md">
+            <svg viewBox="0 0 600 400" class="w-full h-auto" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration">
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0" stop-color="#34d399" stop-opacity="0.95" />
+                  <stop offset="1" stop-color="#60a5fa" stop-opacity="0.95" />
+                </linearGradient>
+              </defs>
+              <rect width="100%" height="100%" rx="20" fill="url(#g)" />
+              <g fill="white" opacity="0.95">
+                <circle cx="120" cy="120" r="44" />
+                <circle cx="240" cy="80" r="30" />
+                <rect x="320" y="140" width="160" height="20" rx="6" />
+                <rect x="320" y="180" width="110" height="12" rx="6" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
