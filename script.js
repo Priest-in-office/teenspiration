@@ -76,6 +76,30 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 });
 
+// Reveal animations for generic elements marked with .reveal
+document.addEventListener('DOMContentLoaded', function () {
+	const reveals = document.querySelectorAll('.reveal');
+	if (!('IntersectionObserver' in window) || !reveals.length) {
+		reveals.forEach((el) => el.classList.remove('opacity-0', 'translate-y-6'));
+		return;
+	}
+
+	const revealObserver = new IntersectionObserver((entries, observer) => {
+		entries.forEach((entry, idx) => {
+			if (!entry.isIntersecting) return;
+			const el = entry.target;
+			// small stagger based on position in the NodeList
+			const i = Array.from(reveals).indexOf(el);
+			el.style.transition = `all 700ms cubic-bezier(.22,.9,.31,1) ${i * 120}ms`;
+			el.classList.remove('opacity-0', 'translate-y-6');
+			el.classList.add('opacity-100', 'translate-y-0');
+			observer.unobserve(el);
+		});
+	}, { threshold: 0.15 });
+
+	reveals.forEach((r) => revealObserver.observe(r));
+});
+
 // Newsletter form handling (separate scope)
 document.addEventListener('DOMContentLoaded', function () {
 	const form = document.getElementById('newsletter-form');
