@@ -162,85 +162,513 @@
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <!-- Left: headline, copy, CTAs, proof bullets -->
             <div>
-              <h2 id="product" class="text-4xl sm:text-5xl font-extrabold text-white">Language learning they’ll love with Teenspiration</h2>
-              <p class="mt-4 text-lg text-gray-300 max-w-xl">Short, engaging activities designed to build real skills and confidence. Fun, personalized, and proven to make progress—perfect for teens at school or home.</p>
+              <h2 id="product" class="text-4xl sm:text-5xl font-extrabold text-white">Teenspiration Strategies</h2>
+              <p class="mt-4 text-lg text-gray-300 max-w-xl">These are our 15 core values designed to help you thrive.</p>
 
               <div class="mt-6 flex flex-wrap gap-4">
                 <a href="#get-started" class="inline-flex items-center px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-semibold shadow">Get started</a>
                 <a href="#learn-more" class="inline-flex items-center px-6 py-3 border border-gray-700 text-gray-200 rounded-lg hover:bg-gray-800">Learn more</a>
               </div>
-
-              <ul class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <li class="flex items-start gap-3">
-                  <span class="inline-flex items-center justify-center w-10 h-10 rounded-md bg-emerald-600 text-white">
-                    <!-- check -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-                  </span>
-                  <div>
-                    <p class="text-sm font-semibold text-white">Proven to work</p>
-                    <p class="text-sm text-gray-400">Research-backed lessons for consistent progress.</p>
-                  </div>
-                </li>
-                <li class="flex items-start gap-3">
-                  <span class="inline-flex items-center justify-center w-10 h-10 rounded-md bg-blue-500 text-white">
-                    <!-- spark -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
-                  </span>
-                  <div>
-                    <p class="text-sm font-semibold text-white">Energizing</p>
-                    <p class="text-sm text-gray-400">Lessons that keep teens coming back.</p>
-                  </div>
-                </li>
-                <li class="flex items-start gap-3">
-                  <span class="inline-flex items-center justify-center w-10 h-10 rounded-md bg-indigo-500 text-white">
-                    <!-- clock -->
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3"/></svg>
-                  </span>
-                  <div>
-                    <p class="text-sm font-semibold text-white">Bite-sized</p>
-                    <p class="text-sm text-gray-400">Short lessons fit into any schedule.</p>
-                  </div>
-                </li>
-              </ul>
             </div>
 
-            <!-- Right: stacked feature cards -->
-            <div class="space-y-4">
-              <div class="bg-white/5 p-5 rounded-xl shadow-lg">
-                <div class="flex items-start gap-4">
-                  <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-emerald-500 text-white inline-flex items-center justify-center"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg>
+            <!-- Right: carousel of feature cards -->
+            <div class="carousel relative" data-interval="4000" aria-roledescription="carousel">
+              <div class="carousel-viewport overflow-hidden rounded-xl">
+                <div class="carousel-track">
+                  <!-- slide 1-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/mentorship.jpeg" alt="1-on-1 Mentorship" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-emerald-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Teen Mentorship Hub</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>1-on-1 Virtual Mentorship</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Group Mentorship Circles</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Mentor Spotlight Stories</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Live Q&amp;A Webinars</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <h3 class="text-lg font-semibold text-white">Personalized Paths</h3>
-                    <p class="mt-1 text-sm text-gray-400">Adaptive lessons that adjust to each learner’s level and pace.</p>
+                  <!-- slide 2-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/workshop.jpeg" alt="Career & Skills Incubator" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Career & Skills Incubator</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>SkillUp Workshop Series</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Teenpreneur Zone</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Career Roadmap Guides</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Professional Training</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 3-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/community_service.jpeg" alt="Mentor Spotlight" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-indigo-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Spiritual Growth Tracks</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Interactive Bible Plans</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Global Prayer Altar</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Testimony Wall</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Discipleship Pathway</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 4-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/workshop.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Creative & Talent Showcase</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Digital Talent Shows</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Design Studio</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Music & Arts Mentorship</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Creative Competitions</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 5-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/community_service.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Teen Leadership & Influence</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Global Teen Ambassadors</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Leadership Academy</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Influencers for Christ Training</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Social Media Strategy</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 6-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/mentorship.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Health & Wellness Corner</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Fitness & Faith Videos</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Mental Health Support</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Healthy Living Tips</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Wellness Challenges</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 7-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/workshop.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Global Connect & Culture</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Culture Exchange Programs</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Teen Talk Thursdays</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Spotlight Nations</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>International Forums</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 8-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/community_service.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Tech & Media Engagement</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Teen Podcast Station</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Vlog Series Platform</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Creative Media Challenges</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Content Creation Tools</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 9 -->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/mentorship.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Rewards & Certifications</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Star Recognition System</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Achievement Certificates</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Exclusive Opportunities</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Leadership Badges</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 10 -->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/workshop.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Debate & Public Speaking</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Monthly Debate Series</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Speaking Workshops</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Debate Leaderboard</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Virtual Debate Stage</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 11 -->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/community_service.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Mission Trips & Outreach</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Local & Global Missions</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Virtual Mission Trips</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Impact Diaries</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Mission Ambassadors</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 12 -->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img loading="lazy" src="image/mentorship.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Service & Volunteer Hub</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Community Challenges</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Volunteer Recognition</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Service Stars Program</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Peer Inspiration Stories</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 13-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img src="image/workshop.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Tech Innovation & Coding</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Coding Challenges</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Innovation Lab</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Hackathons & Competitions</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Digital Showcase</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 14-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img src="image/community_service.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Global Teen Movement</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Annual Global Conference</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>#LightUpYourWorld Initiative</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Virtual Prayer Chain</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Worldwide Impact Stories</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 15-->
+                  <div class="carousel-slide bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
+                    <div class="mb-4 overflow-hidden rounded-md">
+                      <img src="image/mentorship.jpeg" alt="Group Mentorship Circles" class="w-full h-40 sm:h-48 md:h-56 object-cover">
+                    </div>
+                    <div class="flex items-start gap-4">
+                      <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
+                      </div>
+                      <div>
+                        <h3 class="text-lg font-semibold text-white">Parent & School Engagement</h3>
+                        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-gray-300">
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Parents' Corner Resources</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Campus Clubs Toolkit</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>School Competition</span>
+                          </li>
+                          <li class="flex items-start gap-2">
+                            <svg class="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Family Support Materials</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <!-- Controls -->
+              <div class="absolute inset-0 pointer-events-none flex items-center justify-between px-4">
+                <button class="carousel-prev pointer-events-auto bg-white/6 hover:bg-white/10 text-white p-2 rounded-full focus:outline-none" aria-label="Previous slide">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button class="carousel-next pointer-events-auto bg-white/6 hover:bg-white/10 text-white p-2 rounded-full focus:outline-none" aria-label="Next slide">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                </button>
               </div>
 
-              <div class="bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
-                <div class="flex items-start gap-4">
-                  <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-blue-500 text-white inline-flex items-center justify-center"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.5 4.5L18 8l-4.5 1.5L12 14l-1.5-4.5L6 8l4.5-1.5L12 2z"/></svg>
-                  </div>
-                  <div>
-                    <h3 class="text-lg font-semibold text-white">Gamified Progress</h3>
-                    <p class="mt-1 text-sm text-gray-400">Motivating streaks, rewards, and friendly competition.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="bg-white/5 p-5 rounded-xl shadow-lg reveal opacity-0 translate-y-6">
-                <div class="flex items-start gap-4">
-                  <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-indigo-500 text-white inline-flex items-center justify-center"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8"/></svg>
-                  </div>
-                  <div>
-                    <h3 class="text-lg font-semibold text-white">Easy Admin Tools</h3>
-                    <p class="mt-1 text-sm text-gray-400">Simple management and progress tracking for leaders and mentors.</p>
-                  </div>
-                </div>
-              </div>
+              <!-- Indicators -->
+              <div class="mt-4 flex items-center justify-center gap-2 carousel-indicators" aria-hidden="false"></div>
             </div>
           </div>
         </div>
