@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teenspiration</title>
+  <title>Teenspiration - Igniting Purpose</title>
   <link href="src/output.css" rel="stylesheet">
   <link rel="shortcut icon" href="image/New_logoteenspiration4.png" type="image/x-icon" />
   <!-- Icons -->
@@ -57,44 +57,102 @@
     </div>
   </header>
 
-  <!-- Hero -->
+  <!-- Hero Carousel -->
   <main>
-    <section class="bg-gray-800">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div class="max-w-xl">
-          <h1 class="text-4xl text-center leading-11 md:leading-20 md:text-7xl md:text-left font-extrabold tracking-tight text-white">Welcome To <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-emerald-500">Teenspiration!</span></h1>
-          <p class="mt-4 text-center md:text-left md:pt-5 text-lg text-white">Get empowered as a teenager through creativity, innovation, competitions, challenges, mentorship, and global networking—helping you rise as leaders, influencers, and solution-bringers in your generation.</p>
-
-          <div class="mt-8 flex flex-wrap gap-4 md:justify-start justify-center">
-            <a id="get-started" href="#" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-300 to-emerald-500 hover:bg-emerald-700 text-white rounded-md text-sm font-semibold hover:transform hover:scale-[1.06]">Get started</a>
-            <a href="#learn-more" class="inline-flex items-center px-6 py-3 border border-gray-300 text-white rounded-md text-sm hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">Learn more</a>
+    <section id="hero-carousel" class="relative h-screen w-full carousel" data-interval="4000">
+      <div class="carousel-viewport h-full w-full overflow-hidden">
+        <div class="carousel-track h-full w-full">
+          <div class="carousel-slide relative h-full w-full">
+            <img src="image/excercise.jpeg" class="slide-img h-full w-full object-cover" alt="Teens exercising">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="slide-content absolute inset-0 z-10 flex items-center justify-center">
+              <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="max-w-xl">
+                  <h1 class="text-4xl text-center leading-11 md:leading-20 md:text-7xl md:text-left font-extrabold tracking-tight text-white">Welcome To <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-emerald-500">Teenspiration!</span></h1>
+                  <p class="mt-4 text-center md:text-left md:pt-5 text-lg text-white">A global movement of teenagers who believe in shining bright, dreaming big, and living life God's way!</p>
+                  <div class="mt-8 flex flex-wrap gap-4 md:justify-start justify-center">
+                    <a id="get-started" href="#" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-300 to-emerald-500 hover:bg-emerald-700 text-white rounded-md text-sm font-semibold hover:transform hover:scale-[1.06]">Get started</a>
+                    <a href="#learn-more" class="inline-flex items-center px-6 py-3 border border-gray-300 text-white rounded-md text-sm hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-blue-300 to-emerald-500 hover:transition hover:duration-400 hover:ease-in-out">Learn more</a>
+                  </div>
+                </div>
+                <div class="hidden lg:flex justify-center lg:justify-end">
+                  <div class="w-full max-w-md">
+                    <a href="#"><img src="image/New_logoteenspiration4.png" alt="Teenspiration Logo" class="w-86 md:w-[1080px] h-auto object-contain mx-auto"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div class="flex justify-center lg:justify-end">
-          <!-- Adding logo -->
-          <div class="w-full max-w-md">
-              <a href="#">
-                <img src="image/New_logoteenspiration4.png" alt="Teenspiration Logo" class="w-86 md:w-[1080px] h-auto object-contain mx-auto">
-              </a>
-            <!-- <svg viewBox="0 0 600 400" class="w-full h-auto" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration">
-              <defs>
-                <linearGradient id="g" x1="0" x2="1">
-                  <stop offset="0" stop-color="#34d399" stop-opacity="0.95" />
-                  <stop offset="1" stop-color="#60a5fa" stop-opacity="0.95" />
-                </linearGradient>
-              </defs>
-              <rect width="100%" height="100%" rx="20" fill="url(#g)" />
-              <g fill="white" opacity="0.95">
-                <circle cx="120" cy="120" r="44" />
-                <circle cx="240" cy="80" r="30" />
-                <rect x="320" y="140" width="160" height="20" rx="6" />
-                <rect x="320" y="180" width="110" height="12" rx="6" />
-              </g>
-            </svg> -->
+          <!--Slide 2-->
+          <div class="carousel-slide relative h-full w-full">
+            <img src="image/discussion.jpeg" class="slide-img h-full w-full object-cover" alt="Teens in a discussion">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="slide-content absolute inset-0 z-10 flex items-center justify-start">
+              <div class="max-w-xl mx-auto lg:mx-0 lg:ml-32 px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl text-center leading-11 md:leading-20 md:text-7xl md:text-left font-extrabold tracking-tight text-white">Igniting Purpose</h1>
+                <p class="mt-4 text-center md:text-left md:pt-5 text-lg text-gray-200">Get empowered as a teenager through creativity, innovation, competitions, challenges, mentorship, and global networking—helping you rise as leaders, influencers, and solution-bringers in your generation.</p>
+                <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
+                  <a href="#" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-300 to-emerald-500 hover:bg-emerald-700 text-white rounded-md text-sm font-semibold">Join the Conversation</a>
+                </div>
+              </div>
+            </div>
           </div>
+          <!--Slide 3-->
+          <div class="carousel-slide relative h-full w-full">
+            <img src="image/mentorship.jpeg" class="slide-img h-full w-full object-cover" alt="Mentorship session">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="slide-content absolute inset-0 z-10 flex items-center justify-start">
+              <div class="max-w-xl mx-auto lg:mx-0 lg:ml-32 px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl text-center leading-11 md:leading-20 md:text-7xl md:text-left font-extrabold tracking-tight text-white">Growth & Mentorship</h1>
+                <p class="mt-4 text-center md:text-left md:pt-5 text-lg text-gray-200">Connect with mentors who guide and inspire you to reach your potential.</p>
+                <div class="mt-8 flex flex-wrap gap-4 md:justify-start justify-center">
+                  <a href="#" class="inline-flex items-center px-6 py-3 border border-gray-300 text-white rounded-md text-sm">Find a Mentor</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Slide 4-->
+          <div class="carousel-slide relative h-full w-full">
+            <img src="image/workshop.jpeg" class="slide-img h-full w-full object-cover" alt="Workshop">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="slide-content absolute inset-0 z-10 flex items-center justify-start">
+              <div class="max-w-xl mx-auto lg:mx-0 lg:ml-32 px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl text-center leading-11 md:leading-20 md:text-7xl md:text-left font-extrabold tracking-tight text-white">Creative Workshops</h1>
+                <p class="mt-4 text-center md:text-left md:pt-5 text-lg text-gray-200">Unlock new skills and passions through hands-on, creative workshops.</p>
+                <div class="mt-8 flex flex-wrap gap-4 md:justify-start justify-center">
+                  <a href="#" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-300 to-emerald-500 hover:bg-emerald-700 text-white rounded-md text-sm font-semibold">Explore Workshops</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Slide 5-->
+          <div class="carousel-slide relative h-full w-full">
+            <img src="image/community_service.jpeg" class="slide-img h-full w-full object-cover" alt="Community service">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="slide-content absolute inset-0 z-10 flex items-center justify-start">
+              <div class="max-w-xl mx-auto lg:mx-0 lg:ml-32 px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl text-center leading-11 md:leading-20 md:text-7xl md:text-left font-extrabold tracking-tight text-white">Community Impact</h1>
+                <p class="mt-4 text-center md:text-left md:pt-5 text-lg text-gray-200">Make a difference in the world through meaningful community service.</p>
+                <div class="mt-8 flex flex-wrap gap-4 md:justify-start justify-center">
+                  <a href="#" class="inline-flex items-center px-6 py-3 border border-gray-300 text-white rounded-md text-sm">Get Involved</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+      <!--Carousel Controls-->
+      <div class="absolute inset-0 z-20 pointer-events-none flex items-center justify-between px-4">
+        <button class="carousel-prev pointer-events-auto bg-white/10 hover:bg-white/20 text-white p-3 rounded-full focus:outline-none transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+        </button>
+        <button class="carousel-next pointer-events-auto bg-white/10 hover:bg-white/20 text-white p-3 rounded-full focus:outline-none transition">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </button>
+      </div>
+      <!--Indicators-->
+      <div class="carousel-indicators absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center justify-center gap-2"></div>
     </section>
   </main>
 
